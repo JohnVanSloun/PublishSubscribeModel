@@ -1,4 +1,4 @@
-# PublishSubscribeModel
+# Publish-Subscribe Model
 
 The Publish-Subscribe Model consists of 4 classes: Publisher, Subscriber, ClientHandler, and Server. 
 
