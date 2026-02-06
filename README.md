@@ -1,6 +1,6 @@
-# MQTTModel
+# PublishSubscribeModel
 
-The MQTT Model consists of 4 classes: Publisher, Subscriber, ClientHandler, and Server. 
+The Publish-Subscribe Model consists of 4 classes: Publisher, Subscriber, ClientHandler, and Server. 
 
 The Publisher class handles the creation of a publisher client and can connect, publish to, and disconnect from a server. It handles a set of instructions: connect, publish, and disconnect which it receives from terminal input that trigger its methods. The connect command makes the Publisher create a socket and input/output streams through which it can communicate. The publish command publishes a message to a server. The disconnect command disconnects the Publisher from the server and handles teardown of the socket.
 
